@@ -1,0 +1,124 @@
+/* {% load static %} */
+body {
+    margin: 0px;
+    padding: 0px;
+   
+    background: url( "/static/img/bg.jpg" ); 
+    background-repeat: no-repeat;
+    background-size: 1700px;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.left {
+    /* border: 4px solid lightcoral; */
+    margin: 4px 4px;
+    padding: 4px 4px;
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+
+}
+
+.left img {
+    /* height: 100px; */
+    width: 80px;
+}
+
+.left span {
+    font-size: 15px;
+    color: rgb(238, 141, 22)
+}
+
+.mid {
+    /* border: 4px solid orangered; */
+
+    padding: 4px 4px;
+    display: block;
+    width: 38%;
+    margin: auto;
+    padding: 10px 38px;
+    margin: 10px auto;
+
+    /* position: absolute ;
+top: 10px; */
+}
+
+.navbar ul {
+    list-style: none;
+    display: inline-block;
+
+}
+
+.navbar li {
+    display: inline;
+    /* padding: 10px 0px;  */
+    padding: 16px 39px;
+    /* margin:0px 0px ; */
+    margin: 3px -15px;
+    color: #f50000;
+
+    font-size: 20px;
+}
+
+.navbar a {
+    color: #f50000;
+
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    color: rgb(115, 192, 92);
+}
+
+.right {
+    /* border: 4px solid orange; */
+    margin: 4px 4px;
+    padding: 4px 4px;
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+
+}
+
+button {
+    border: 3px solid orangered;
+    margin: 0px 0px;
+    padding: 2px 4px;
+    border-radius: 8px;
+    color: #f71f1fed;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Baloo Bhai 2', cursive;
+    /* font-family: 'Libre Baskerville', serif; */
+}
+
+.contaner {
+    border: 4px solid greenyellow;
+    text-align: center;
+    /* padding: 185px 76px;
+    margin: 83px 172px; */
+    padding: 27px 102px;
+    margin: 65px 213px;
+    width: 39%;
+    border-radius:100px;
+}
+
+.contaner .form-group {
+    margin: 10px auto;
+    /* padding: 0px 0px; */
+    padding: 10px 24px;
+    border: 2px solid orange;
+    border-radius: 15px;
+    text-align: center;
+    width: 38%;
+    font-size: 15px;
+    
+}
+ input {
+    font-family: 'Baloo Bhai 2', cursive;
+    text-align: center;
+    /* font-family: 'Libre Baskerville', serif; */
+}
